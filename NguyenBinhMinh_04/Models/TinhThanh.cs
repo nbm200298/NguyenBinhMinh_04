@@ -11,8 +11,8 @@ namespace NguyenBinhMinh_04.Models
     {
         [Key]
         public int MaTinhThanh { get; set; }
-        public string TenTinhTHanh { get; set; }
-        [ForeignKey("TenTinhThanh")]
-        public NhanVien NhanVien { get; set; }
+        //public string TenTinhTHanh { get; set; }
+        //[ForeignKey("TenTinhThanh")]
+        public string NhanVien { get; set; }
     }
 }

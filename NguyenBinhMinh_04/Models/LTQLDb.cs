@@ -9,6 +9,7 @@ namespace NguyenBinhMinh_04.Models
     {
         public virtual DbSet<TinhThanh> TinhThanhs { get; set; }
         public virtual DbSet<NhanVien> NhanViens { get; set; }
+        public virtual DbSet<demo> Demos { get; set; }
         public LTQLDb()
             : base("name=LTQLDb1")
         {

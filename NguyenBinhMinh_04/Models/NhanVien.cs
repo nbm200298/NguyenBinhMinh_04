@@ -12,6 +12,6 @@ namespace NguyenBinhMinh_04.Models
         public int MaNhanVien { get; set; }
         public string TenNhanVien { get; set; }
         public int  MaTinhThanh { get; set; }
-        public ICollection<TinhThanh> TinhThanhs { get; set; }
+        //public ICollection<TinhThanh> TinhThanhs { get; set; }
     }
 }

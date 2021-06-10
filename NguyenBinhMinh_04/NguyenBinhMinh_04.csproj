@@ -142,7 +142,16 @@
     <Compile Include="Migrations\202106060836179_add-table-NhanVien.Designer.cs">
       <DependentUpon>202106060836179_add-table-NhanVien.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202106100216120_table_Demo.cs" />
+    <Compile Include="Migrations\202106100216120_table_Demo.Designer.cs">
+      <DependentUpon>202106100216120_table_Demo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202106100219267_Table-Demo.cs" />
+    <Compile Include="Migrations\202106100219267_Table-Demo.Designer.cs">
+      <DependentUpon>202106100219267_Table-Demo.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\demo.cs" />
     <Compile Include="Models\LTQLDb.cs" />
     <Compile Include="Models\NhanVien.cs" />
     <Compile Include="Models\TinhThanh.cs" />
@@ -217,6 +226,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202106060836179_add-table-NhanVien.resx">
       <DependentUpon>202106060836179_add-table-NhanVien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202106100216120_table_Demo.resx">
+      <DependentUpon>202106100216120_table_Demo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202106100219267_Table-Demo.resx">
+      <DependentUpon>202106100219267_Table-Demo.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
